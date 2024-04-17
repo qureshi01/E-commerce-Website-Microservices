@@ -1,0 +1,63 @@
+server:
+  port: 8080
+
+spring:
+  application:
+    name: ecommerce-api-gateway
+
+  cloud:
+    gateway:
+      
+      default-filters:
+        - DedupeResponseHeader=Access-Control-Allow-Origin Access-Control-Allow-Credentials
+      globalcors:
+        cors-configurations:
+          '[/**]':
+            allowed-origins: "*"
+            allowed-methods: "*"
+            allowed-headers: "*"
+    
+      routes:
+        - id: ecommerce-user-service
+          uri: lb://ecommerce-user-service
+          predicates:
+            - Path=/api/user/**
+          filters:
+            - AuthenticationFilter
+
+        - id: ecommerce-product-service
+          uri: lb://ecommerce-product-service
+          predicates:
+            - Path=/api/product/**
+          filters:
+            - AuthenticationFilter
+        
+        - id: ecommerce-cart-service
+          uri: lb://ecommerce-cart-service
+          predicates:
+            - Path=/api/cart/**
+          filters:
+            - AuthenticationFilter
+            
+        - id: ecommerce-order-service
+          uri: lb://ecommerce-order-service
+          predicates:
+            - Path=/api/order/**
+          filters:
+            - AuthenticationFilter
+        
+        - id: ecommerce-payment-service
+          uri: lb://ecommerce-payment-service
+          predicates:
+            - Path=/api/order/**
+          filters:
+            - AuthenticationFilter
+
+eureka:
+  instance:
+    prefer-ip-address: true
+  client:
+    fetch-registry: true
+    register-with-eureka: true
+    service-url:
+      defaultZone: http://localhost:8761/eureka

@@ -1,0 +1,187 @@
+!SESSION 2024-04-16 21:32:36.976 -----------------------------------------------
+eclipse.buildId=4.21.0.202312011804
+java.version=17.0.9
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_IN
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4 -keyring /Users/qureshi/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.springframework.boot.ide.branding.sts4 -keyring /Users/qureshi/.eclipse_keyring
+
+!ENTRY org.eclipse.emf.ecore 2 0 2024-04-16 21:32:38.366
+!MESSAGE Both 'org.eclipse.jst.j2ee.core' and 'org.eclipse.jst.j2ee.core' register a package for 'application.xmi'
+
+!ENTRY org.eclipse.jface 2 0 2024-04-16 21:32:50.469
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2024-04-16 21:32:50.469
+!MESSAGE A conflict occurred for COMMAND+SHIFT+T:
+Binding(COMMAND+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.jdt.ui.navigate.open.type"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(COMMAND+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.lsp4e.symbolinworkspace"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-04-16 21:33:53.198
+!MESSAGE Classpath changed for project: ecommerce-api-gateway
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-04-16 21:33:53.204
+!MESSAGE Boot project ADDED: ecommerce-api-gateway
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-04-16 21:33:53.207
+!MESSAGE Starting Boot LS...
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-04-16 21:33:53.251
+!MESSAGE Started Boot LS process
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2024-04-16 21:33:53.274
+!MESSAGE Command list starting LS: org.springframework.tooling.boot.ls
+START:
+/Applications/SpringToolSuite4.app/Contents/Eclipse/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.macosx.x86_64_17.0.9.v20231028-0858/jre/bin/java
+-cp
+/Applications/SpringToolSuite4.app/Contents/Eclipse/plugins/org.springframework.tooling.boot.ls_1.51.0.202312011752/servers/spring-boot-language-server/BOOT-INF/classes:/Applications/SpringToolSuite4.app/Contents/Eclipse/plugins/org.springframework.tooling.boot.ls_1.51.0.202312011752/servers/spring-boot-language-server/BOOT-INF/lib/*
+-Dsts.lsp.client=eclipse
+-Dlsp.completions.indentation.enable=true
+-Xmx1024m
+-XX:+HeapDumpOnOutOfMemoryError
+-XX:TieredStopAtLevel=1
+-Xlog:jni+resolve=off
+-Dspring.config.location=file:/Applications/SpringToolSuite4.app/Contents/Eclipse/plugins/org.springframework.tooling.boot.ls_1.51.0.202312011752/servers/spring-boot-language-server/BOOT-INF/classes/application.properties
+-XX:ErrorFile=/Users/qureshi/Desktop/ecommerce-microservices-react-master/backend/.metadata/.plugins/org.springframework.tooling.boot.ls/fatal-error-spring-boot_1713283433272
+org.springframework.ide.vscode.boot.app.BootLanguageServerBootApp
+--languageserver.hover-timeout=225
+END
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-04-16 21:33:53.274
+!MESSAGE DelegatingStreamConnectionProvider - Starting Boot LS
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2024-04-16 21:33:53.283
+!MESSAGE Started org.springframework.tooling.boot.ls LS process 10947
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-04-16 21:33:56.925
+!MESSAGE Classpath changed for project: ecommerce-api-gateway
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-04-16 21:34:12.686
+!MESSAGE Classpath changed for project: ecommerce-cart-service
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-04-16 21:34:12.690
+!MESSAGE Boot project ADDED: ecommerce-cart-service
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-04-16 21:34:31.121
+!MESSAGE Classpath changed for project: ecommerce-order-service
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-04-16 21:34:31.128
+!MESSAGE Boot project ADDED: ecommerce-order-service
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-04-16 21:34:48.617
+!MESSAGE Classpath changed for project: ecommerce-product-service
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-04-16 21:34:48.618
+!MESSAGE Boot project ADDED: ecommerce-product-service
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-04-16 21:35:04.077
+!MESSAGE Classpath changed for project: ecommerce-service-registry
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-04-16 21:35:04.085
+!MESSAGE Boot project ADDED: ecommerce-service-registry
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-04-16 21:35:18.015
+!MESSAGE Classpath changed for project: ecommerce-user-service
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-04-16 21:35:18.019
+!MESSAGE Boot project ADDED: ecommerce-user-service
+
+!ENTRY org.eclipse.jface 2 0 2024-04-16 21:39:51.648
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2024-04-16 21:39:51.649
+!MESSAGE A conflict occurred for COMMAND+SHIFT+C:
+Binding(COMMAND+SHIFT+C,
+	ParameterizedCommand(Command(org.eclipse.tm4e.languageconfiguration.toggleLineCommentCommand,Toggle Line Comment,
+		,
+		Category(org.eclipse.tm4e.languageconfiguration.category,TM4E Language Configuration,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.tm4e.languageconfiguration.toggleLineCommentCommand"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,system)
+Binding(COMMAND+SHIFT+C,
+	ParameterizedCommand(Command(org.springframework.tooling.boot.ls.ToggleComment,Toggle Comment,
+		,
+		Category(org.springframework.ide.eclipse.commands,Spring Generic Text Editor,Spring Language Server Commands,true),
+		WorkbenchHandlerServiceHandler("org.springframework.tooling.boot.ls.ToggleComment"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,system)
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-04-16 21:46:02.750
+!MESSAGE Classpath changed for project: ecommerce-api-gateway
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-04-16 21:46:31.166
+!MESSAGE Classpath changed for project: ecommerce-cart-service
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-04-16 21:46:50.019
+!MESSAGE Classpath changed for project: ecommerce-order-service
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-04-16 21:46:53.788
+!MESSAGE Classpath changed for project: ecommerce-order-service
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-04-16 21:47:12.464
+!MESSAGE Classpath changed for project: ecommerce-product-service
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-04-16 21:47:17.010
+!MESSAGE Classpath changed for project: ecommerce-product-service
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-04-16 21:47:34.916
+!MESSAGE Classpath changed for project: ecommerce-service-registry
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-04-16 21:47:38.773
+!MESSAGE Classpath changed for project: ecommerce-service-registry
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-04-16 21:47:59.479
+!MESSAGE Classpath changed for project: ecommerce-user-service
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-04-16 21:48:03.923
+!MESSAGE Classpath changed for project: ecommerce-user-service
+
+!ENTRY org.springframework.ide.eclipse.boot.dash 4 0 2024-04-16 21:50:30.515
+!MESSAGE Failed to connect to Boot app
+!STACK 0
+java.lang.NullPointerException
+	at java.base/java.util.concurrent.CompletableFuture.uniAcceptStage(CompletableFuture.java:732)
+	at java.base/java.util.concurrent.CompletableFuture.thenAccept(CompletableFuture.java:2182)
+	at org.springframework.ide.eclipse.boot.dash.liveprocess.DefaultLiveProcessCommandExecutor.executeCommand(DefaultLiveProcessCommandExecutor.java:60)
+	at org.springframework.ide.eclipse.boot.dash.BootDashActivator$1.stateChanged(BootDashActivator.java:219)
+	at org.springframework.ide.eclipse.boot.dash.BootDashActivator$1.stateChanged(BootDashActivator.java:1)
+	at org.springframework.ide.eclipse.boot.dash.util.RunStateTracker.updateOwnerStatesAndFireEvents(RunStateTracker.java:216)
+	at org.springframework.ide.eclipse.boot.dash.util.RunStateTracker$1.gotValue(RunStateTracker.java:151)
+	at org.springframework.ide.eclipse.boot.dash.util.RunStateTracker$1.gotValue(RunStateTracker.java:1)
+	at org.springsource.ide.eclipse.commons.livexp.core.LiveExpression.changed(LiveExpression.java:137)
+	at org.springsource.ide.eclipse.commons.livexp.core.LiveExpression.refresh(LiveExpression.java:81)
+	at org.springsource.ide.eclipse.commons.livexp.core.LiveVariable.setValue(LiveVariable.java:46)
+	at org.springframework.ide.eclipse.boot.dash.util.AbstractPollingAppReadyStateMonitor$1.run(AbstractPollingAppReadyStateMonitor.java:51)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.springframework.ide.eclipse.boot.dash 4 0 2024-04-17 11:24:33.963
+!MESSAGE Failed to connect to Boot app
+!STACK 0
+java.lang.NullPointerException
+	at java.base/java.util.concurrent.CompletableFuture.uniAcceptStage(CompletableFuture.java:732)
+	at java.base/java.util.concurrent.CompletableFuture.thenAccept(CompletableFuture.java:2182)
+	at org.springframework.ide.eclipse.boot.dash.liveprocess.DefaultLiveProcessCommandExecutor.executeCommand(DefaultLiveProcessCommandExecutor.java:60)
+	at org.springframework.ide.eclipse.boot.dash.BootDashActivator$1.stateChanged(BootDashActivator.java:219)
+	at org.springframework.ide.eclipse.boot.dash.BootDashActivator$1.stateChanged(BootDashActivator.java:1)
+	at org.springframework.ide.eclipse.boot.dash.util.RunStateTracker.updateOwnerStatesAndFireEvents(RunStateTracker.java:216)
+	at org.springframework.ide.eclipse.boot.dash.util.RunStateTracker$1.gotValue(RunStateTracker.java:151)
+	at org.springframework.ide.eclipse.boot.dash.util.RunStateTracker$1.gotValue(RunStateTracker.java:1)
+	at org.springsource.ide.eclipse.commons.livexp.core.LiveExpression.changed(LiveExpression.java:137)
+	at org.springsource.ide.eclipse.commons.livexp.core.LiveExpression.refresh(LiveExpression.java:81)
+	at org.springsource.ide.eclipse.commons.livexp.core.LiveVariable.setValue(LiveVariable.java:46)
+	at org.springframework.ide.eclipse.boot.dash.util.AbstractPollingAppReadyStateMonitor$1.run(AbstractPollingAppReadyStateMonitor.java:51)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
